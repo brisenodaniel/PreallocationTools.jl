@@ -1,5 +1,5 @@
 module PreallocationTools
-
+using Random
 using Adapt: Adapt, adapt
 using ArrayInterface: ArrayInterface
 using PrecompileTools: @compile_workload, @setup_workload
